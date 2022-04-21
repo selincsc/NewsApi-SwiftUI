@@ -11,7 +11,9 @@ import SwiftUI
 struct newsApI_TutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomePage()
+            }
         }
     }
 }
